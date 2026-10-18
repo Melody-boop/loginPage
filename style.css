@@ -130,3 +130,573 @@ border-radius: 14px;
     text-decoration: underline;
 }
 
+/* Homepage navigation */
+
+.home-page header {
+    width: 100%;
+    padding: 20px 8%;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #34313a;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+
+.home-page nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.home-page .brand {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.home-page .brand-dot {
+    color: #a855f7;
+}
+
+.home-page nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.home-page nav ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.home-page nav ul a:hover {
+    color: #c084fc;
+}
+/* Homepage hero section */
+.home-page main {
+    width: 100%;
+}
+
+.home-page .hero {
+    min-height: 75vh;
+    padding: 70px 8%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.home-page .hero-content {
+    max-width: 750px;
+}
+
+.home-page .hero-greeting {
+    color: #c084fc;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.home-page .hero h1 {
+    color: white;
+    font-size: clamp(48px, 7vw, 80px);
+    margin: 0 0 15px;
+    line-height: 1.1;
+}
+
+.home-page .hero h2 {
+    color: #ddd6e8;
+    font-size: clamp(20px, 3vw, 28px);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.home-page .hero-description {
+    color: #d1cbd8;
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 620px;
+    margin-bottom: 30px;
+}
+
+.home-page .hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.home-page .hero-btn {
+    display: inline-block;
+    padding: 13px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.home-page .primary-btn {
+    background: #a855f7;
+    color: white;
+}
+
+.home-page .primary-btn:hover {
+    background: #9333ea;
+    transform: translateY(-2px);
+}
+
+.home-page .secondary-btn {
+    border: 1px solid #a855f7;
+    color: white;
+}
+
+.home-page .secondary-btn:hover {
+    background: #a855f7;
+    transform: translateY(-2px);
+}
+
+/* Reset the homepage layout */
+body.home-page {
+    display: block;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Neutral homepage theme */
+body.home-page {
+    display: block;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #eeedf0;
+    color: #34313a;
+}
+
+/* Homepage navigation */
+
+/* Homepage navigation */
+.home-page header {
+    width: 100%;
+    padding: 22px 8%;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #eeedf0;
+    border-bottom: 1px solid #dedbe3;
+}
+
+.home-page nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.home-page .brand {
+    color: #34313a;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 750;
+    letter-spacing: -0.8px;
+}
+
+.home-page .brand-dot {
+    color: #8053a6;
+}
+
+.home-page nav ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.home-page nav ul a {
+    color: #514c58;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.25s ease;
+}
+
+.home-page nav ul a:hover {
+    color: #8053a6;
+}
+
+
+/* Hero text */
+.home-page .hero h1 {
+    color: #34313a;
+}
+
+.home-page .hero h2 {
+    color: #55505d;
+}
+
+.home-page .hero-description {
+    color: #625d68;
+}
+
+.home-page .hero-greeting {
+    color: #8053a6;
+}
+
+.home-page .brand-dot {
+    color: #8053a6;
+}
+
+/* Hero buttons */
+.home-page .primary-btn {
+    background: #8053a6;
+    color: #ffffff;
+}
+
+.home-page .primary-btn:hover {
+    background: #694087;
+}
+
+.home-page .secondary-btn {
+    border-color: #8053a6;
+    color: #694087;
+}
+
+.home-page .secondary-btn:hover {
+    background: #e2d9eb;
+}
+
+/* Consistent spacing for homepage sections */
+.home-page .about,
+.home-page .projects,
+.home-page .contact {
+    padding: 40px 8%;
+    box-sizing: border-box;
+}
+/* Hero workspace image */
+
+/* Hero workspace image */
+.home-page .hero-image {
+    width: 40%;
+    max-width: 450px;
+    flex-shrink: 0;
+}
+
+.home-page .hero-image img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    display: block;
+    box-shadow: 0 18px 45px rgba(52, 49, 58, 0.12);
+}
+
+/* Homepage sections */
+.home-page .about,
+.home-page .projects,
+.home-page .contact {
+    padding: 65px 8%;
+    box-sizing: border-box;
+}
+
+.home-page .about,
+.home-page .contact {
+    background: #f8f7f9;
+}
+
+.home-page .about h2,
+.home-page .projects h2,
+.home-page .contact h2 {
+    color: #34313a;
+    font-size: clamp(28px, 4vw, 38px);
+    letter-spacing: -1px;
+    margin: 0 0 18px;
+}
+
+.home-page .about p,
+.home-page .projects > p,
+.home-page .contact > p {
+    max-width: 760px;
+    color: #625d68;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Project cards */
+.home-page .project-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    margin-top: 30px;
+}
+
+.home-page .project-card {
+    background: #fff;
+    padding: 28px;
+    border: 1px solid #e5e1e9;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(52, 49, 58, 0.05);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.home-page .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(52, 49, 58, 0.1);
+}
+
+.home-page .project-card h3 {
+    color: #694087;
+    font-size: 21px;
+    margin-top: 0;
+}
+
+.home-page .project-card p {
+    color: #625d68;
+    line-height: 1.7;
+}
+
+/* Contact links */
+.home-page .contact {
+    text-align: center;
+}
+
+.home-page .contact > p {
+    margin: 0 auto 25px;
+}
+
+.home-page .social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.home-page .social-links a {
+    color: #694087;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.home-page .social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.home-page .site-footer {
+    padding: 24px 8%;
+    text-align: center;
+    background: #34313a;
+    color: #e8e4ed;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.home-page .site-footer p {
+    margin: 5px 0;
+}
+
+/* Responsive layout */
+@media (max-width: 760px) {
+    .home-page nav {
+        justify-content: center;
+    }
+
+    .home-page nav ul {
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .home-page .hero {
+        min-height: auto;
+        padding: 45px 7%;
+        flex-direction: column-reverse;
+        align-items: stretch;
+        gap: 30px;
+    }
+
+    .home-page .hero-image {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .home-page .hero-image img {
+        height: 260px;
+    }
+
+    .home-page .about,
+    .home-page .projects,
+    .home-page .contact {
+        padding: 45px 7%;
+    }
+
+    .home-page .project-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Premium hero styling */
+.home-page .hero {
+    position: relative;
+    overflow: hidden;
+    background:
+        radial-gradient(
+            circle at 85% 45%,
+            rgba(128, 83, 166, 0.10),
+            transparent 35%
+        ),
+        #eeedf0;
+}
+
+.home-page .hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+}
+
+.home-page .hero h1 {
+    letter-spacing: -2px;
+}
+
+.home-page .hero-image {
+    position: relative;
+    z-index: 1;
+}
+
+.home-page .hero-image img {
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.home-page .hero-image img:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 24px 50px rgba(52, 49, 58, 0.17);
+}
+
+/* Premium homepage navbar */
+.home-page header {
+    padding: 20px 8%;
+    background: rgba(238, 237, 240, 0.94);
+    border-bottom: 1px solid rgba(128, 83, 166, 0.18);
+    box-shadow: 0 4px 20px rgba(52, 49, 58, 0.04);
+    backdrop-filter: blur(12px);
+}
+
+.home-page nav {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.home-page .brand {
+    font-size: 27px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    transition: transform 0.25s ease;
+}
+
+.home-page .brand:hover {
+    transform: translateY(-2px);
+}
+
+.home-page .brand-dot {
+    color: #8053a6;
+}
+
+.home-page nav ul {
+    gap: 34px;
+}
+
+.home-page nav ul a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 0;
+    color: #45404d;
+    font-weight: 600;
+    transition: color 0.25s ease;
+}
+
+.home-page nav ul a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #8053a6;
+    border-radius: 2px;
+    transition: width 0.25s ease;
+}
+
+.home-page nav ul a:hover {
+    color: #8053a6;
+}
+
+.home-page nav ul a:hover::after {
+    width: 100%;
+}
+
+/* Highlight the Contact link */
+.home-page nav ul li:last-child a {
+    padding: 10px 18px;
+    color: #fff;
+    background: #8053a6;
+    border-radius: 8px;
+}
+
+.home-page nav ul li:last-child a::after {
+    display: none;
+}
+
+.home-page nav ul li:last-child a:hover {
+    color: #fff;
+    background: #694087;
+    transform: translateY(-2px);
+}
+
+/* Keep all navigation links uniform */
+.home-page nav ul li:last-child a {
+    padding: 8px 0;
+    color: #45404d;
+    background: transparent;
+    border-radius: 0;
+    font-weight: 600;
+    transform: none;
+}
+
+.home-page nav ul li:last-child a::after {
+    display: block;
+}
+
+.home-page nav ul li:last-child a:hover {
+    color: #8053a6;
+    background: transparent;
+    transform: none;
+}
+
+.home-page .brand-dot {
+    color: #8053a6;
+    font-size: 0.7em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+
+
+
+
+
